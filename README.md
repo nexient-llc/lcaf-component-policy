@@ -1,6 +1,6 @@
-# Common Automation Framework - Global Policy Component
+# Launch Common Automation Framework - Global Policy Component
 
-This repo holds the component for global policies within the Common Automation Framework (CAF).
+This repo holds the component for global policies within the Launch Common Automation Framework (LCAF).
 
 It contains the following:
 
