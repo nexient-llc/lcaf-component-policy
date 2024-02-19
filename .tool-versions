@@ -1,0 +1,4 @@
+conftest 0.44.1
+pre-commit 3.3.3
+opa 0.53.1
+regula 3.2.1 # https://github.com/nexient-llc/asdf-regula
