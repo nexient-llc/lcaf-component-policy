@@ -11,6 +11,10 @@ deny[msg] {
     resource_change.provider_name != "registry.terraform.io/hashicorp/kubernetes"
     resource_change.provider_name != "registry.terraform.io/hashicorp/helm"
     resource_change.provider_name != "registry.terraform.io/sumologic/sumologic"
+    resource_change.provider_name != "registry.terraform.io/hashicorp/external"
+    resource_change.provider_name != "registry.terraform.io/hashicorp/local"
+    resource_change.provider_name != "registry.terraform.io/hashicorp/null"
+    resource_change.provider_name != "terraform.io/builtin/terraform"    
 
     msg := sprintf("Provider is not allowed: %s", [resource_change.provider_name])
 }
